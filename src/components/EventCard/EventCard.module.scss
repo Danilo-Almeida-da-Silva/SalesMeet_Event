@@ -4,9 +4,7 @@
   font-family: 'Cabin', Arial, sans-serif;
   cursor: pointer;
   width: 210px;
-  height: max-content;
-  min-height: 220px;
-  max-height: 270px;
+  height: 35vh;
   position: relative;
   padding: 0;
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
@@ -16,11 +14,10 @@
   line-height: 1.42857143;
   background: transparent;
   overflow: hidden;
-  //border: solid brown 3px;
 }
 
 .event:hover {
-  opacity: 95%;
+  opacity: 99%;
   transition: opacity 0.35s;
 }
 
@@ -28,7 +25,6 @@
   //border: solid darkmagenta 3px;
   width: 100%;
   height: 19vh;
-  /* padding-bottom: 100%; */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -46,7 +42,7 @@
   background-color: rgba(0, 0, 0, 0.7);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   color: #fff;
-  width: 64px;
+  width: 75px;
   height: 64px;
   display: flex;
   text-align: center;
@@ -73,8 +69,9 @@
   gap: 3px;
   padding: 9px 24px 24px;
   font-size: 16px;
-  line-height: 1.42857143;
+  height: 35vh;
   background-color: whitesmoke;
+  color: black;
 }
 
 .event_location {
