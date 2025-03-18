@@ -1,0 +1,64 @@
+.eventPage {
+  //border: solid yellow 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top, #ffffffbd, #00000075, #5801fa);
+}
+
+.eventDetails {
+  border: solid gray 2px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 80vh;
+}
+
+.eventImage {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.eventInfo {
+  height: 34vh;
+  //border: solid red 2px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.inscriptionButton {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.inscriptionButton:hover {
+  background-color: #4500b0;
+}
+
+.successMessage {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+  background-color: black;
+}
