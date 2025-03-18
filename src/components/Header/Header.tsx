@@ -3,6 +3,7 @@ import s from './Header.module.scss'
 import logoSales from '../../assets/logo_salesmeet.png'
 import Home from '../../pages/Home/Home'
 import Footer from '../Footer/Footer'
+import EventDetal from '../Eventdeta/EventDetalhes'
 
 export default function Header() {
   return (
@@ -24,11 +25,6 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link className={s.DetalhesdoEvento} to=''>
-                  Detalhes do Evento
-                </Link>
-              </li>
-              <li>
                 <Link className={s.Contato} to='/Footer'>
                   Contato
                 </Link>
@@ -40,6 +36,7 @@ export default function Header() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Footer' element={<Footer />} />
+        <Route path="/evento/:id" element={<EventDetal />} />
       </Routes>
     </BrowserRouter>
   )
