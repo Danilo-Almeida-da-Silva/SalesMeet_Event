@@ -11,6 +11,8 @@ export default defineConfig({
         "@": path.join(__dirname, "src"),
         "@components": path.join(__dirname, "src/components"),
         "@pages": path.join(__dirname, "src/pages"),
+        'rollup/parseAst': 'rollup/dist/parseAst.js',
     },
 },
 })
+
