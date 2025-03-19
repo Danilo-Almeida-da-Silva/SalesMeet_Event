@@ -2,14 +2,11 @@ header {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  border: solid green 5px;
   align-items: center;
-  //background-color: gray;
   background: linear-gradient(to right, #290168e0, #4d02a3c4, #070322bb);
   border-bottom: solid rgba(255, 255, 255, 0.24) 1px;
 
   nav {
-    //border: solid yellow 3px;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -17,7 +14,6 @@ header {
   }
 
   .sessaologo {
-    //border: solid pink 5px;
     align-items: start;
     justify-content: space-around;
     .logo {
@@ -64,5 +60,50 @@ header {
   .Contato {
     background-color: #070322;
     border-radius: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sessaoNav {
+    width: 50%;
+  }
+
+  .uldaNav li {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sessaologo {
+    margin-bottom: 10px;
+  }
+
+  .sessaoNav {
+    width: 100%;
+    height: auto;
+  }
+
+  .uldaNav {
+    flex-direction: column;
+    align-items: center;
+
+    li {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .sessaologo .logo {
+    height: 10vh;
+  }
+
+  .sessaoNav {
+    width: 100%;
+  }
+
+  .uldaNav li {
+    font-size: 16px;
   }
 }
