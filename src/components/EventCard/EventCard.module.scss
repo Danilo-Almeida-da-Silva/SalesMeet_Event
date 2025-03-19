@@ -22,7 +22,6 @@
 }
 
 .event_image {
-  //border: solid darkmagenta 3px;
   width: 100%;
   height: 19vh;
   background-size: cover;
@@ -35,7 +34,6 @@
 }
 
 .event_date {
-  //border: solid darkgoldenrod 3px;
   position: absolute;
   top: 10px;
   left: 7px;
@@ -63,7 +61,6 @@
 }
 
 .event_body {
-  //border: solid darkblue 3px;
   display: flex;
   flex-direction: column;
   gap: 3px;
