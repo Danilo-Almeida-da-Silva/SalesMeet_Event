@@ -62,3 +62,74 @@
   font-weight: bold;
   background-color: black;
 }
+
+@media (max-width: 1024px) {
+  .eventPage {
+    flex-direction: column;
+    padding: 4vh 0;
+  }
+
+  .eventDetails {
+    width: 80%;
+  }
+
+  .eventImage {
+    height: 40vh;
+  }
+
+  .eventInfo {
+    padding: 1.2rem;
+  }
+
+  .inscriptionButton {
+    padding: 9px 18px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .eventPage {
+    padding: 2vh 0;
+  }
+
+  .eventDetails {
+    width: 90%;
+  }
+
+  .eventImage {
+    height: 30vh;
+  }
+
+  .eventInfo {
+    padding: 1rem;
+  }
+
+  .inscriptionButton {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .eventPage {
+    gap: 20px;
+    height: 73vh;
+  }
+
+  .eventDetails {
+    width: 95%;
+  }
+
+  .eventImage {
+    height: 25vh;
+  }
+
+  .eventInfo {
+    padding: 0.8rem;
+  }
+
+  .inscriptionButton {
+    padding: 7px 14px;
+    font-size: 0.85rem;
+  }
+}
