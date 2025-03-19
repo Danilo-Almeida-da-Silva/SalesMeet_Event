@@ -77,3 +77,100 @@
 .event_location {
   font-size: 15px;
 }
+
+@media (max-width: 1024px) {
+  .event {
+    width: 180px;
+    height: 30vh;
+  }
+
+  .event_image {
+    height: 15vh;
+  }
+
+  .event_date {
+    font-size: 22px;
+  }
+
+  .event_body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .event {
+    width: 150px;
+    height: 25vh;
+  }
+
+  .event_image {
+    height: 12vh;
+  }
+
+  .event_date {
+    font-size: 20px;
+  }
+
+  .event_body {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .event {
+    max-width: 180px;
+    height: 30vh;
+  }
+
+  .event_image {
+    height: 15vh;
+  }
+
+  .event_date {
+    font-size: 22px;
+  }
+
+  .event_body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .event {
+    max-width: 150px;
+    height: 25vh;
+  }
+
+  .event_image {
+    height: 12vh;
+  }
+
+  .event_date {
+    font-size: 20px;
+  }
+
+  .event_body {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .event {
+    width: 100%;
+    height: 40vh;
+    justify-content: space-around;
+  }
+
+  .event_image {
+    height: 25vh;
+    width: 100%;
+  }
+
+  .event_date {
+    font-size: 18px;
+  }
+
+  .event_body {
+    font-size: 12px;
+  }
+}
