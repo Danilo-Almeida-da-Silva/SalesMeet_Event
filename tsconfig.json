@@ -10,7 +10,7 @@
     "strict": true,
     "forceConsistentCasingInFileNames": false,
     "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "Node16",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
@@ -19,6 +19,7 @@
       "@/*": ["./src/*"],
       "@components/*" : [ "./src/components/*"],
       "@pages/*" : ["./src/pages/*"],
+      "acorn": ["node_modules/acorn"],
     }
   },
   "files": [],
