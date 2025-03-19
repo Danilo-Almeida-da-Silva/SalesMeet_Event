@@ -49,3 +49,57 @@
     font-size: 14px;
   }
 }
+@media (max-width: 1024px) {
+  .footer {
+    height: 80vh;
+  }
+
+  .contato h3 {
+    font-size: 30px;
+  }
+
+  .contato p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    height: 70vh;
+  }
+
+  .contato h3 {
+    font-size: 28px;
+  }
+
+  .contato p {
+    font-size: 18px;
+  }
+
+  .socialLinks {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    height: 60vh;
+  }
+
+  .contato h3 {
+    font-size: 24px;
+  }
+
+  .contato p {
+    font-size: 16px;
+  }
+
+  .socialLinks {
+    gap: 5px;
+  }
+
+  .socialLinks figure {
+    font-size: 12px;
+  }
+}
