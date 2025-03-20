@@ -60,7 +60,7 @@ Os protótipos foram implantados na **Vercel** e podem ser acessados online.
 
 ## 🌍 Link do Projeto
 Acesse o projeto online através do seguinte link:
-[Link do Projeto](#)
+[[Link do Projeto](https://sales-meet-event.vercel.app/)](#)
 Os protótipos foram implantados na **Vercel** e podem ser acessados online.
 Os wireframes e mockups foram criados previamente para definir a experiência do usuário.
 
