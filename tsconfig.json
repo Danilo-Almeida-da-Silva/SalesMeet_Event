@@ -9,22 +9,22 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": false,
-    "module": "NodeNext",
-    "moduleResolution": "Node16",
+    "module": "ES2015",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
       "@components/*" : [ "./src/components/*"],
-      "@pages/*" : ["./src/pages/*"],
-      "acorn": ["node_modules/acorn"],
+      "@pages/*": ["src/pages/*"],
+      "acorn": ["node_modules/acorn"]
     }
   },
   "files": [],
   "references": [
-    { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ]
-}
+} 

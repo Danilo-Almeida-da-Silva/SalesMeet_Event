@@ -3,6 +3,8 @@ import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import tseslint from 'typescript-eslint'
+import 'node_modules/vite-plugin-dynamic-import/dist/dynamic-import-to-glob.d.ts'
+import 'node_modules/vite-plugin-dynamic-import/dist/index.d.ts'
 
 export default tseslint.config(
   { ignores: ['dist'] },
